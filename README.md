@@ -1,2 +1,123 @@
-# archinit
-Automatically generate the best architecture for your awesome new project through this CLI.
+<p align="center">
+<img alt="npm version" src="https://img.shields.io/npm/v/npkill.svg">
+<img alt="NPM" src="https://img.shields.io/npm/l/npkill.svg">
+</p>
+
+### Easily generate the best architecture for your awesome new project. :sparkles:
+
+Automatically generate the best architecture for your awesome new project through this CLI. Yay!
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Options](#options)
+- [Set Up Locally](#setup-locally)
+- [Roadmap](#roadmap)
+- [Known bugs](#known-bugs)
+- [Contributing](#contributing)
+- [License](#license)
+
+<a name="features"></a>
+
+# :heavy_check_mark: Features
+
+- **Very fast:** ARCHINIT is written in JavaScript, improving performance greatly.
+
+- **Easy to use:** Stop wasting your time searching for the best architecture for your new project. Simply choose the tech you're working on, enter a name for your awesome new project and :rocket: Could it be any easier? ;)
+
+- **Minified:** It barely has any dependencies.
+
+<a name="installation"></a>
+
+# :cloud: Installation
+
+You don't really need to install it to use it!
+Simply use the following command:
+
+```bash
+$ npx archinit
+```
+
+Or if for some reason you really want to install it:
+
+```bash
+$ npm i -g archinit
+# Unix users may need to run the command with sudo. Go carefully
+```
+
+<a name="usage"></a>
+
+# :clipboard: Usage
+
+```bash
+$ npx archinit
+# or just archinit if installed globally
+```
+
+<a name="options"></a>
+
+## Options
+
+| ARGUMENT               | DESCRIPTION                                                                               |
+| ---------------------- | ----------------------------------------------------------------------------------------- |
+| -d, --directory        | Set the directory from which to begin searching. By default, starting-point is .          |
+| -h, --help, ?          | Show this help page and exit                                                              |
+| -v, --version          | Show npkill version                                                                       |
+
+**Warning:** _In future versions some commands may change_
+
+<a name="setup-locally"></a>
+
+# :pager: Set Up Locally
+
+```bash
+# -- First, clone the repository
+git clone https://github.com/wbraham/archinit.git
+
+# -- Navigate to the dir
+cd archinit
+
+# -- Install dependencies
+npm install
+
+# -- And run!
+npm run start
+```
+
+<a name="roadmap"></a>
+
+# :crystal_ball: Roadmap
+
+- [ ] Add Magento 2 Modules Architecture
+- [ ] Release 0.1.0 !
+- [ ] Add ReactJS Architecture
+- [ ] Add React Native Architecture
+- [ ] Add NodeJS Architecture
+- [ ] Improve code
+  - [ ] Improve performance
+
+<a name="known-bugs"></a>
+
+# :bug: Known bugs :bug:
+
+- No known bugs.
+
+> If you find any bugs, don't hesitate and open an issue :)
+
+<a name="contributing"></a>
+
+# :revolving_hearts: Contributing
+
+If you want to contribute check the [CONTRIBUTING.md](.github/CONTRIBUTING.md)
+
+<a name="license"></a>
+
+# :scroll: License
+
+MIT © [Walid BRAHAM](http://walid.tech)
+
+:cat::baby_chick:
+
+---
