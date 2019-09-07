@@ -1,7 +1,7 @@
 <p align="center">
 <img alt="ISSUES" src="https://img.shields.io/github/issues/wbraham/archinit">
-<img alt="NPM" src="https://img.shields.io/github/license/wbraham/archinit">
 <img alt="VERSION" src="https://img.shields.io/badge/npm-v6.9.0-blue">
+<img alt="NPM" src="https://img.shields.io/github/license/wbraham/archinit">
 </p>
 
 ### Easily generate the best architecture for your awesome new project. :sparkles:
