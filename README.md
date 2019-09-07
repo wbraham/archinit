@@ -64,7 +64,7 @@ $ npx archinit
 | ---------------------- | ----------------------------------------------------------------------------------------- |
 | -d, --directory        | Set the directory from which to begin searching. By default, starting-point is .          |
 | -h, --help, ?          | Show this help page and exit                                                              |
-| -v, --version          | Show npkill version                                                                       |
+| -v, --version          | Show archinit version                                                                       |
 
 **Warning:** _In future versions some commands may change_
 
