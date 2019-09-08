@@ -5,6 +5,13 @@ module.exports = {
   askProjectInformations: () => {
     const questions = [
       {
+        type: "list",
+        name: "visibility",
+        message: "Preferred technology:",
+        choices: ["Magento 2 Module", "ReactJS", "NodeJS"],
+        default: "Magento 2 Module"
+      },
+      {
         name: "project_name",
         type: "input",
         message: "Enter your Magento 2 module name:",

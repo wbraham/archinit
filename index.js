@@ -3,6 +3,11 @@ const clear = require("clear");
 const figlet = require("figlet");
 const files = require("./utils/files");
 const inquirer = require("./utils/inquirer");
+const CLI = require("clui");
+const fs = require("fs");
+const path = require("path");
+//const touch = require("touch");
+const Spinner = CLI.Spinner;
 
 clear();
 console.log(
@@ -14,6 +19,19 @@ const run = async () => {
   if (files.directoryExists(informations.project_name)) {
     console.log(chalk.red("Module already exists!"));
     process.exit();
+  } else {
+    const status = new Spinner("Creating project structure...");
+    status.start();
+    fs.mkdir(
+      path.basename(informations.project_name),
+      { recursive: true },
+      err => {
+        if (err) throw err;
+      }
+    );
+    setTimeout(() => {
+      status.stop();
+    }, 2000);
   }
 };
 
