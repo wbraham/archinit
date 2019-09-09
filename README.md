@@ -17,7 +17,6 @@ Automatically generate the best architecture for your awesome new project throug
 - [Set Up Locally](#setup-locally)
 - [Roadmap](#roadmap)
 - [Known bugs](#known-bugs)
-- [Contributing](#contributing)
 - [License](#license)
 
 <a name="features"></a>
@@ -63,9 +62,8 @@ $ npx archinit
 
 | ARGUMENT               | DESCRIPTION                                                                               |
 | ---------------------- | ----------------------------------------------------------------------------------------- |
-| -d, --directory        | Set the directory from which to begin searching. By default, starting-point is .          |
 | -h, --help, ?          | Show this help page and exit                                                              |
-| -v, --version          | Show archinit version                                                                       |
+| -v, --version          | Show archinit version                                                                     |
 
 **Warning:** _In future versions some commands may change_
 
@@ -106,12 +104,6 @@ npm run start
 - No known bugs.
 
 > If you find any bugs, don't hesitate and open an issue :)
-
-<a name="contributing"></a>
-
-# :revolving_hearts: Contributing
-
-If you want to contribute check the [CONTRIBUTING.md](.github/CONTRIBUTING.md)
 
 <a name="license"></a>
 
