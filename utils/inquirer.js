@@ -6,7 +6,7 @@ module.exports = {
     const questions = [
       {
         type: "list",
-        name: "visibility",
+        name: "technology",
         message: "Preferred technology:",
         choices: ["Magento 2 Module", "ReactJS", "NodeJS"],
         default: "Magento 2 Module"
