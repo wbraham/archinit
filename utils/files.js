@@ -9,12 +9,5 @@ module.exports = {
     } catch (err) {
       return false;
     }
-  },
-  techSupported: tech => {
-    if (tech == "Magento 2 Module") {
-      return true;
-    } else {
-      return false;
-    }
   }
 };

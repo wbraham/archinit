@@ -4,13 +4,13 @@ const files = require("./files");
 module.exports = {
   askProjectInformations: () => {
     const questions = [
-      {
+      /*{
         type: "list",
         name: "technology",
         message: "Preferred technology:",
-        choices: ["Magento 2 Module", "ReactJS", "NodeJS"],
+        choices: ["Magento 2 Module","ReactJS", "NodeJS"],
         default: "Magento 2 Module"
-      },
+      },*/
       {
         name: "project_name",
         type: "input",
@@ -20,6 +20,19 @@ module.exports = {
             return true;
           } else {
             return "Please enter a valid name for your awesome Magento 2 module.";
+          }
+        }
+      },
+      {
+        name: "project_description",
+        type: "input",
+        message: "Enter a short description:",
+        validate: function(value) {
+          if (value.length) {
+            return true;
+          } else {
+            value = "";
+            return true;
           }
         }
       },
